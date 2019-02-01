@@ -1,0 +1,64 @@
+{
+  "machine_number": "9445",
+  "model": "Comp_1",
+  "time_series": [
+    {
+      "name": "ST.Raw",
+      "data": [
+        {"time": "2018-05-24 12:03:04-0800", "value": 23315.0},
+        {"time": "2018-05-25 12:03:04-0800", "value": 23315.1},
+        {"time": "2018-05-26 12:03:04-0800", "value": 23315.2},
+        {"time": "2018-05-27 12:03:04-0800", "value": 23315.3},
+        {"time": "2018-05-28 12:03:04-0800", "value": 23315.4}
+      ]
+    },
+    {
+      "name": "ST.Trend",
+      "data": [
+        {"time": "2018-05-24 12:03:04-0800", "value": 23315.1},
+        {"time": "2018-05-28 12:03:04-0800", "value": 23315.3}
+      ]
+    },
+    {
+      "name": "LT.Raw",
+      "data": [
+        {"time": "2018-05-24 12:03:04-0800", "value": 23315.0},
+        {"time": "2018-05-25 12:03:04-0800", "value": 23315.1},
+        {"time": "2018-05-26 12:03:04-0800", "value": 23315.2},
+        {"time": "2018-05-27 12:03:04-0800", "value": 23315.3},
+        {"time": "2019-04-28 12:03:04-0800", "value": 23315.4}
+      ]
+    },
+    {
+      "name": "LT.Trend",
+      "data": [
+        {"time": "2018-05-24 12:03:04-0800", "value": 23315.1},
+        {"time": "2019-06-28 12:03:04-0800", "value": 23315.3}
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "time": "2018-08-24 12:03:04",
+      "id": "Annotation_1",
+      "description": "Description of annotation 1"
+    },
+    {
+      "time": "2018-08-30 12:03:04",
+      "id": "Annotation_2",
+      "description": "Description of annotation 2"
+    }
+  ],
+  "limits": [
+    {
+      "id": "Limit_1",
+      "description": "Limit that indicates x",
+      "value": 30000
+    },
+    {
+      "id": "limit_2",
+      "description": "Limit that indicates y",
+      "value": 30000
+    }
+  ]
+}

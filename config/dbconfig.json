@@ -1,0 +1,10 @@
+{
+  "pma": {
+    "host": "http://localhost.com", "port": "35432", "database": "PMA.3",
+    "user": "grf-sa", "password": "dUYoWUIrMTdxPGNFMz8j", "db_type": "POSTGRES"
+  },
+  "adc_logging": {
+    "host": "http://localhost.com", "port": "3306", "database": "csi_spotfire",
+    "user": "csi_sptfr_admin", "password": "OUhKekJLa2o=", "db_type": "MYSQL"
+  }
+}
