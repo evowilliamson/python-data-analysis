@@ -1,5 +1,5 @@
 from misc.singleton import Singleton
-from config import Config
+from tools.copyfiles.config import Config
 
 
 @Singleton

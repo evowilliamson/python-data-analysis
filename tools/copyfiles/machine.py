@@ -1,10 +1,10 @@
 import shutil
 import os
 import datetime
-import utils
-import config
+import tools.copyfiles.utils
+import tools.copyfiles.config
 import re
-from sourceshandlersfactory import SourcesHandlersFactory
+from tools.copyfiles.sourceshandlersfactory import SourcesHandlersFactory
 
 
 class Machine:

@@ -2,9 +2,9 @@ __author__ = "Ivo Willemsen (IWIO)"
 __date__ = "2018-11-26"
 
 import unittest
-from mock import patch
+from unittest.mock import patch
 import os
-import worker
+from tests.workers.json_loader import worker
 import json
 from shared import load_file
 

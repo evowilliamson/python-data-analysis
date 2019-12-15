@@ -1,6 +1,6 @@
 from misc.singleton import Singleton
-from config import Config
-from machine import Machine
+from tools.copyfiles.config import Config
+from tools.copyfiles.machine import Machine
 
 
 @Singleton

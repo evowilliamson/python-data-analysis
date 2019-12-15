@@ -5,7 +5,7 @@ from shared import load_file
 import json
 import pandas as pd
 from shared import Singleton, get_logger
-from json_loader_dao import JsonDao
+from workers.json_loader.json_loader_dao import JsonDao
 
 TIMESERIES = "time_series"
 TIMEFORMAT = "time_format"

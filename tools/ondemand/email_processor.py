@@ -1,7 +1,7 @@
 from misc.singleton import Singleton
-import utils
+import tools.ondemand.utils
 import datetime
-from config import Config, EXPIRE_PERIOD
+from tools.ondemand.config import Config, EXPIRE_PERIOD
 
 TIME_FORMAT = "%Y-%m-%d"
 

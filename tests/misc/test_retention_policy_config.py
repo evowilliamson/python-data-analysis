@@ -1,7 +1,7 @@
 import unittest
 from misc.retention_policy_config \
     import RetentionPolicyConfig, SHARD_GROUP_DURATION_TAG, RP_NAME_TAG, DEFAULT_TAG, TIME, MEASUREMENT
-from mock import MagicMock
+from unittest.mock import MagicMock
 from datetime import datetime
 import time
 

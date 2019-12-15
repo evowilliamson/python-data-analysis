@@ -1,6 +1,6 @@
 import sys
 import time
-from machinefactory import MachineFactory
+from tools.copyfiles.machinefactory import MachineFactory
 
 SLEEP_TIME = 60*60*1  # 1 hour
 

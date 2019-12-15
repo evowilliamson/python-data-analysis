@@ -1,0 +1,10 @@
+marshmallow-sqlalchemy
+SQLAlchemy
+pandas
+arrow
+request
+beautifulsoup4
+statsmodels==0.6.1
+numpy
+psycopg2
+mysqlclient

@@ -2,8 +2,9 @@ import json
 import os
 from misc.singleton import Singleton
 import shared as sh
-import attribute
-from attribute import Attribute
+from tools.ondemand import attribute
+from tools.ondemand.attribute import Attribute
+
 
 TASK_LOGGER = sh.get_logger(sh.TASK_LOG)
 LOCATION = "location"

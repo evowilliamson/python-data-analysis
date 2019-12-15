@@ -1,11 +1,11 @@
-import utils
-from config import Config
-from config import ATTRIBUTES, LOCATION
-import attribute
+import tools.ondemand.utils
+from tools.ondemand.config import Config
+from tools.ondemand.config import ATTRIBUTES, LOCATION
+import tools.ondemand.attribute
 from bs4 import BeautifulSoup
 from request import Request
 from misc.singleton import Singleton
-from attribute import REQUEST
+from tools.ondemand.attribute import REQUEST
 
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.%f"
 

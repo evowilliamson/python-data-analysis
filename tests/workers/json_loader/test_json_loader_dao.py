@@ -2,7 +2,7 @@ __author__ = "Ivo Willemsen (IWIO)"
 __date__ = "2018-11-26"
 
 import unittest
-from mock import patch
+from unittest.mock import patch
 import os
 from workers.json_loader.json_loader_dao import JsonDao
 
